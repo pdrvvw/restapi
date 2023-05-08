@@ -3,7 +3,7 @@ import AccordionMenu from "./AccordionMenu";
 export default function AccordionItem({ field }) {
   const fieldName = field.name.replace(" ", "-");
   return (
-    <div className="accordion-item">
+    <div className="accordion-item"  data-testid="accordion-item">
       <h2 className="accordion-header">
         <button
           className="accordion-button collapsed"
